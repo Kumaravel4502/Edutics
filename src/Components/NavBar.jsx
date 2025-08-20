@@ -22,7 +22,6 @@ const dropdownItems = {
     ],
 };
 
-// A simple spinner component for loading states
 const LoadingSpinner = () => (
     <div className="w-5 h-5 border-2 border-t-transparent border-white rounded-full animate-spin mx-auto"></div>
 );
@@ -83,9 +82,9 @@ const NavBar = () => {
     return (
         <>
             {/* Sticky Navbar Container */}
-            <section className="relative bg-[#241442]  text-white ">
+            {/* <section className="relative bg-[#241442]  text-white "> */}
 
-                {/* <div className="2xl:container mx-auto sticky top-0 z-50 bg-[#241442] text-white "> */}
+                <div className="2xl:container mx-auto sticky top-0 z-50 bg-[#241442] text-white ">
                 <div className="max-w-full mx-auto px-3 sm:px-4 md:px-6 lg:px-8 xl:px-10">
                     <div className="w-full mx-auto flex justify-between items-center gap-4 py-2 sm:py-3 md:py-4 lg:py-5">
                         {/* Logo */}
@@ -268,8 +267,8 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </div>
-                {/* </div> */}
-            </section>
+                </div>
+            {/* </section> */}
         </>
     );
 };

@@ -60,9 +60,9 @@ const categoryItems = [
 
 const Headers = () => {
     return (
-        <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F2ECFF]">
+        // <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F2ECFF]">
 
-            <div className="2xl:container mx-auto px-4 md:px-8 lg:px-10">
+            <div className="2xl:container mx-auto px-4 md:px-8 lg:px-10 relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F2ECFF]">
                 <div className="flex flex-col md:flex-row items-center gap-10 md:gap-12 pt-12 md:pt-16 lg:pt-20 pb-28">
                     {/* Left content */}
                     <div className="w-full md:w-1/2">
@@ -127,7 +127,7 @@ const Headers = () => {
 
 
             </div>
-        </section>
+        // </section>
     );
 };
 
