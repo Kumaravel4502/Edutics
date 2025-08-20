@@ -30,7 +30,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="2xl:container  bg-[#241442]  mx-auto mb-10">
+    <div className="2xl:container  bg-[#241442]  mx-auto">
       <div className="mx-auto w-[99%] max-w-screen-xl px-4 py-1 ">
         <div className="grid gap-6 sm:gap-8 md:gap-10 lg:gap-15 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10">
           <div className="image-container sm:col-span-full">
