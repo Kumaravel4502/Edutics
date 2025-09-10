@@ -32,7 +32,8 @@ const Footer = () => {
   return (
     <div className="2xl:container  bg-[#241442]  mx-auto">
       <div className="mx-auto w-[99%] max-w-screen-xl px-4 py-1 ">
-        <div className="grid gap-6 sm:gap-8 md:gap-10 lg:gap-15 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10">
+        <div className="grid gap-6 sm:gap-8 md:gap-10 lg:gap-15 sm:grid-cols-3  mt-10">
+          {/*md:grid-cols-3 lg:grid-cols-4 changed  */}
           <div className="image-container sm:col-span-full">
             <Link to="/" className="flex items-center mb-6">
               <img
@@ -41,7 +42,7 @@ const Footer = () => {
                 alt="Edugen Logo"
               />
             </Link>
-            <p className="text-gray-500 font-bold dark:text-gray-400">
+            <p className="text-gray-500 sm:text-[16px] font-semibold dark:text-gray-400">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
               magni odio aliquam consequatur quis. Consequatur, possimus eveniet
               similique dolore veniam cum voluptates quidem. Nulla, iure, vero
@@ -51,8 +52,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="mb-4 text-xl font-bold text-white">Links</h2>
-            <ul className="text-gray-500 font-bold dark:text-gray-400">
+            <h2 className="mb-4 text-xl font-semibold text-white">Links</h2>
+            <ul className="text-gray-500 font-semibold dark:text-gray-400">
               <li className="mb-2">
                 <Link to="/" className="hover:text-[#F1B725] transition-colors">
                   Home
@@ -93,8 +94,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-4 text-xl font-bold text-white">Legal</h2>
-            <ul className="text-gray-500 font-bold dark:text-gray-400">
+            <h2 className="mb-4 text-xl font-semibold text-white">Legal</h2>
+            <ul className="text-gray-500 font-semibold dark:text-gray-400">
               <li className="mb-2">
                 <Link
                   to="/terms-conditions"
@@ -138,10 +139,10 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-4 text-xl font-bold text-white">
+            <h2 className="mb-4 text-xl font-semibold text-white">
               Install Our App
             </h2>
-            <p className="text-gray-500 dark:text-gray-400 font-bold hover:text-[#F1B725] mb-4">
+            <p className="text-gray-500 dark:text-gray-400 font-semibold hover:text-[#F1B725] mb-4">
               From App Store Or Google Play
             </p>
             <div className="flex gap-4">
